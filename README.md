@@ -10,4 +10,5 @@ The tech report has not had a regular writer in a while and so most Wikipedians 
 <h2>History</h2>
 
 | Date  | Comment |
+| ------------- | ------------- |
 | 6/29/2015  | First version posted here. |
