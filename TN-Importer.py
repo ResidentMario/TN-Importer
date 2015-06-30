@@ -1,7 +1,8 @@
 import signpostlib
 
 def getLatestTechNewsLink():
-	return signpostlib.makeSimpleAPIQuery('Tech/News/Latest', 'prop', 'links', language='meta', project='wikimedia')[0]['title']
+	# return signpostlib.makeSimpleAPIQuery('Tech/News/Latest', 'prop', 'links', language='meta', project='wikimedia')[0]['title']
+	return signpostlib.makeAPIQuery(titles='Tech/News/Latest', action='query', prop='links', project='meta')[0]['title']
 
 def getLatestTechNewsBody():
 	data = signpostlib.getPageWikicode(getLatestTechNewsLink(), language='meta', project='wikimedia')
@@ -39,3 +40,4 @@ content = content.replace('\'\'\'*', '\'\'\'\n*')
 
 post_point = signpostlib.getNextSignpostPublicationString() + '/Technology report'
 signpostlib.saveContentToPage(content, post_point, 'Importing Tech News content via the TN-Importer script.')
+print("Done.")
