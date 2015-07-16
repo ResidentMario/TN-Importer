@@ -45,5 +45,5 @@ content += '''}}</noinclude>'''
 
 # Publish.
 post_point = signpostlib.getNextSignpostPublicationString() + '/Technology report'
-signpostlib.saveContentToPage(content, post_point, 'Importing Tech News content via the TN-Importer script.')
-print("Done.")	
+signpostlib.saveContentToPage(content, post_point, 'Importing Tech News content via the [https://github.com/ResidentMario/TN_Importer TN_Importer] script.')
+print("Done.")
