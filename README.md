@@ -7,6 +7,12 @@ The "Technology report" (or the tech report for short) is a report published as 
 
 The tech report has not had a regular writer in a while and so most Wikipedians have come to rely on another smaller-format report, Tech/News, to get their information (hosted at https://meta.wikimedia.org/wiki/Tech/News). This script actually takes the contents of that report and pastes them into Signpost tech news alongside documentation of the report's origin.
 
+<h2>Inputs</h2>
+
+This script doesn't accept inputs. To run it just run:
+
+    python TN_Importer.py
+
 <h2>History</h2>
 
 | Date  | Comment |
