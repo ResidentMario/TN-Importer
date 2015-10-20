@@ -1,4 +1,4 @@
-# TN_Importer.py
+# tnimporter
 A script that handles tedius setup tasks for the technology report section of the Wikipedia Signpost.
 
 <h2>About</h2>
